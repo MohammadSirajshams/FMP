@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="wrapper">
+          <div class="header-logo">
+            <img src="./images/logo.png"  width="240px" height="70px" alt="">
+          </div>
+          <ul class="nav-links">
+            <li> <a href="./index.html">HOME</a> </li>
+            <li> <a href="./categories.html">CATEGORIES</a><i class="fa-solid fa-caret-down"></i> </i>
+      
+            <ul class="drop-down">
+              <li><a href="./categories.html"> MEN's FASHION</a></li>
+              <li><a href="./electronicdevice.html"> ELECTRONIC DEVICES</a></li>
+              <li><a href="./electronicaccessories.html">ELECTRONIC ACCESSORIES</a></li>
+              <li><a href="./homeappliances.html">HOME APPLIANCES</a></li>
+              <li><a href="./automobiles.html">AUTOMOBILES & MOTOR BIKES</a></li>
+             </ul>
+            </li>
+      
+            <li>ABOUT</li>
+            <li> <a href="./contact.html">CONTACT</a> </li>
+            <li> <a href="./account.html">ACCOUNTS</a> </li>
+          </ul>
+      
+      
+          <div class="header-part2">
+      
+            <div class="header-search">
+              <input type="text" placeholder="Search" >
+              <span><i class="fa-solid fa-magnifying-glass"></i></span>
+            </div>
+            <div class="header-signup">
+              <span class="header-login-btn" onclick="login()">LOGIN</span>
+              <span class="header-signup-btn" onclick="signup()">SIGNUP</span>
+            </div>
+          
+          </div>
+          
+      </nav>
+    
+
+
+
+    <button><a href="./account.html">Goto Account Page</a></button>
+        <div id="blur" class="form-part1">
+            <!-- <div class="contact-heading"> -->
+                <h2>Contact Us</h2>
+            <!-- </div> -->
+           <div id="inputField" class="forminput-part1">
+            <div class="form-input1 w50">
+                <input id="inputField" type="text" required>
+                <span>First Name</span>
+            </div>
+            <div class="form-input2 w50">
+                <input id="inputField" type="text" required>
+                <span>Last Name</span>
+            </div>
+            <div class="form-input3 w50">
+                <input id="inputField" type="text" required>
+                <span>Email Address</span>
+            </div>
+            <div class="form-input4 w50">
+                <input id="inputField" type="text" required>
+                <span>Contact Number</span>
+            </div>
+            <div class="form-input5 w100">
+                <textarea required></textarea>
+                <span>Enter Your Message</span>
+            </div>  
+            <div class="form-button">
+                <a  onclick="send(),popUp()" id="contactButton"  href=""><span>SEND</span><i></i></a>    
+             </div>
+            </div>
+        
+        <div class="form-part2">
+            <h2>Contact Info</h2>
+
+        <div class="icon-text">
+            <div class="location">
+            <span><i class="fa-solid fa-location-dot"></i></span>
+            <p>Bulding No.114 Gulshan Block A <br>Main Shahrah-e-Faisal,Karachi </p>
+            </div>
+
+            <div class="email">
+            <span><i class="fa-solid fa-envelope-open-text"></i></span>
+            <p> abc@gmail.com </p>
+            </div>
+
+            <div>
+            <span><i class="fa-solid fa-phone"></i></span>
+            <p> 021-3954912</p>
+            </div>
+
+        </div>
+            <ul class="media-icons">
+                <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-whatsapp"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+            </ul>
+        </div>
+        <div class="form-part3">
+            <!-- <div class="map"> -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d14480.052402816931!2d67.01311055315855!3d24.8634021435853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sBMJ%20institute%20Saddar%20Karachi!5e0!3m2!1sen!2s!4v1654175530180!5m2!1sen!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <!-- </div> -->
+        </div>
+    </div>
+
+    
+</body>
+ <script src="app.js"></script>
+</html>

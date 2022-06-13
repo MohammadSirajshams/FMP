@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav>
+        <div class="wrapper">
+          <div class="header-logo">
+            <img src="./images/logo.png"  width="240px" height="70px" alt="">
+          </div>
+          <ul class="nav-links">
+            <li> <a href="./index.html">HOME</a> </li>
+            <li> <a href="./categories.html">CATEGORIES</a><i class="fa-solid fa-caret-down"></i> </i>
+      
+            <ul class="drop-down">
+              <li><a href="./categories.html"> MEN's FASHION</a></li>
+              <li><a href="./electronicdevice.html"> ELECTRONIC DEVICES</a></li>
+              <li><a href="./electronicaccessories.html">ELECTRONIC ACCESSORIES</a></li>
+              <li><a href="./homeappliances.html">HOME APPLIANCES</a></li>
+              <li><a href="./automobiles.html">AUTOMOBILES & MOTOR BIKES</a></li>
+             </ul>
+            </li>
+      
+            <li>ABOUT</li>
+            <li> <a href="./contact.html">CONTACT</a> </li>
+            <li> <a href="./account.html">ACCOUNTS</a> </li>
+          </ul>
+      
+      
+          <div class="header-part2">
+      
+            <div class="header-search">
+              <input type="text" placeholder="Search" >
+              <span><i class="fa-solid fa-magnifying-glass"></i></span>
+            </div>
+            <div class="header-signup">
+              <span class="header-login-btn" onclick="login()">LOGIN</span>
+              <span class="header-signup-btn" onclick="signup()">SIGNUP</span>
+            </div>
+          
+          </div>
+          
+      </nav>
+
+
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active abc">
+            <img src="./images/realmebanner (1).jpg" class="d-block w-100" alt="...">
+          </div>
+
+          <div class="carousel-item abc">
+            <img src="./images/smartwatchbanner1.jpg" class="d-block w-100 image" alt="...">
+          </div>
+
+          <div class="carousel-item abc">
+            <img src="./images/laptopbanner2.jpg" class="d-block w-100 image" alt="...">
+          </div>
+         
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
+      </div>
+  
+
+
+        <div class="mensfashion-heading">
+          <h1 data-text="ELECTRONIC DEVICES">ELECTRONIC DEVICES</h1>
+        </div>
+    
+        <div class="mens-heading1">
+          <h2>
+            Smart Phones & Tablets
+          </h2>
+        </div>
+        <div class="row category-container">
+        <div class="category-card">
+            <div class="card category-card-img" style="width: 16rem;">
+              <img src="./images/redminote11.jfif" class="card-img-top" alt="..."></div>
+              <div class="card-body category-card-detail">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+        <div class="category-card">
+            <div class="card category-card-img" style="width: 16rem;">
+              <img src="./images/redminote10pro1.jfif" class="card-img-top" alt="..."></div>
+              <div class="card-body category-card-detail">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+        <div class="category-card">
+            <div class="card category-card-img" style="width: 16rem;">
+              <img src="./images/redminote11pro.jfif" class="card-img-top" alt="..."></div>
+              <div class="card-body category-card-detail">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+        <div class="category-card">
+            <div class="card category-card-img" style="width: 16rem;">
+              <img src="./images/redminote9.jfif" class="card-img-top" alt="..."></div>
+              <div class="card-body category-card-detail">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+        <div class="category-card">
+            <div class="card category-card-img" style="width: 16rem;">
+              <img src="./images/realme8pro.jfif" class="card-img-top" alt="..."></div>
+              <div class="card-body category-card-detail">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+        <div class="category-card">
+            <div class="card category-card-img" style="width: 16rem;">
+              <img src="./images/realme7pro.jfif" class="card-img-top" alt="..."></div>
+              <div class="card-body category-card-detail">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+        <div class="category-card">
+            <div class="card category-card-img" style="width: 16rem;">
+              <img src="./images/iphone12pro.jfif" class="card-img-top" alt="..."></div>
+              <div class="card-body category-card-detail">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+        <div class="category-card">
+            <div class="card category-card-img" style="width: 16rem;">
+              <img src="./images/iphoneXR.jfif" class="card-img-top" alt="..."></div>
+              <div class="card-body category-card-detail">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+        <div class="category-card">
+            <div class="card category-card-img" style="width: 16rem;">
+              <img src="./images/iphone.jfif" class="card-img-top" alt="..."></div>
+              <div class="card-body category-card-detail">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+        <div class="category-card">
+            <div class="card category-card-img" style="width: 16rem;">
+              <img src="./images/s21ultra.jfif" class="card-img-top" alt="..."></div>
+              <div class="card-body category-card-detail">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+        <div class="category-card">
+            <div class="card category-card-img" style="width: 16rem;">
+              <img src="./images/vivov57.jfif" class="card-img-top" alt="..."></div>
+              <div class="card-body category-card-detail">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+        <div class="category-card">
+            <div class="card category-card-img" style="width: 16rem;">
+              <img src="./images/motooneace.jfif" class="card-img-top" alt="..."></div>
+              <div class="card-body category-card-detail">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+        <div class="category-card">
+            <div class="card category-card-img" style="width: 16rem;">
+              <img src="./images/tablet.jfif" class="card-img-top" alt="..."></div>
+              <div class="card-body category-card-detail">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+        <div class="category-card">
+            <div class="card category-card-img" style="width: 16rem;">
+              <img src="./images/nokiatablet.jfif" class="card-img-top" alt="..."></div>
+              <div class="card-body category-card-detail">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+        <div class="category-card">
+            <div class="card category-card-img" style="width: 16rem;">
+              <img src="./images/ipad.jfif" class="card-img-top" alt="..."></div>
+              <div class="card-body category-card-detail">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+        <div class="category-card">
+            <div class="card category-card-img" style="width: 16rem;">
+              <img src="./images/ipad1.jfif" class="card-img-top" alt="..."></div>
+              <div class="card-body category-card-detail">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+        
+          </div>
+        <div class="mens-heading1">
+          <h2>
+            Desktops & Laptops
+          </h2>
+        </div>
+        <div class="row category-container">
+        <div class="category-card">
+            <div class="card category-card-img" style="width: 16rem;">
+              <img src="./images/gamingdesktoppc.jfif" class="card-img-top" alt="..."></div>
+              <div class="card-body category-card-detail">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+        <div class="category-card">
+            <div class="card category-card-img" style="width: 16rem;">
+              <img src="./images/gamingpc.jfif" class="card-img-top" alt="..."></div>
+              <div class="card-body category-card-detail">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+        <div class="category-card">
+            <div class="card category-card-img" style="width: 16rem;">
+              <img src="./images/pc1.jfif" class="card-img-top" alt="..."></div>
+              <div class="card-body category-card-detail">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="category-card">
+                <div class="card category-card-img" style="width: 16rem;">
+                  <img src="./images/desktoppc.jfif" class="card-img-top" alt="..."></div>
+                  <div class="card-body category-card-detail">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+            <div class="category-card">
+                <div class="card category-card-img" style="width: 16rem;">
+                  <img src="./images/laptop.jfif" class="card-img-top" alt="..."></div>
+                  <div class="card-body category-card-detail">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+            <div class="category-card">
+                <div class="card category-card-img" style="width: 16rem;">
+                  <img src="./images/delllaptop.jfif" class="card-img-top" alt="..."></div>
+                  <div class="card-body category-card-detail">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+            <div class="category-card">
+                <div class="card category-card-img" style="width: 16rem;">
+                  <img src="./images/applelaptop.jfif" class="card-img-top" alt="..."></div>
+                  <div class="card-body category-card-detail">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+        <div class="category-card">
+            <div class="card category-card-img" style="width: 16rem;">
+              <img src="./images/hplaptop.jfif" class="card-img-top" alt="..."></div>
+              <div class="card-body category-card-detail">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="mens-heading1">
+            <h2>
+              Smart Products
+            </h2>
+          </div>
+          <div class="row category-container">
+          <div class="category-card">
+              <div class="card category-card-img" style="width: 16rem;">
+                <img src="./images/smartiwatch.jfif" class="card-img-top" alt="..."></div>
+                <div class="card-body category-card-detail">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+          <div class="category-card">
+              <div class="card category-card-img" style="width: 16rem;">
+                <img src="./images/smartwatch2.jfif" class="card-img-top" alt="..."></div>
+                <div class="card-body category-card-detail">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+          <div class="category-card">
+              <div class="card category-card-img" style="width: 16rem;">
+                <img src="./images/smartwatchbanner.jpg" class="card-img-top" alt="..."></div>
+                <div class="card-body category-card-detail">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+          <div class="category-card">
+              <div class="card category-card-img" style="width: 16rem;">
+                <img src="./images/securitycamera.jfif" class="card-img-top" alt="..."></div>
+                <div class="card-body category-card-detail">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+          <div class="category-card">
+              <div class="card category-card-img" style="width: 16rem;">
+                <img src="./images/securitycamera1.jfif" class="card-img-top" alt="..."></div>
+                <div class="card-body category-card-detail">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+          <div class="category-card">
+              <div class="card category-card-img" style="width: 16rem;">
+                <img src="./images/securitycamera2.jfif" class="card-img-top" alt="..."></div>
+                <div class="card-body category-card-detail">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+          <div class="category-card">
+              <div class="card category-card-img" style="width: 16rem;">
+                <img src="./images/canoncamera.jfif" class="card-img-top" alt="..."></div>
+                <div class="card-body category-card-detail">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+          <div class="category-card">
+              <div class="card category-card-img" style="width: 16rem;">
+                <img src="./images/nikoncamera1.jfif" class="card-img-top" alt="..."></div>
+                <div class="card-body category-card-detail">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+          <div class="category-card">
+              <div class="card category-card-img" style="width: 16rem;">
+                <img src="./images/Nikoncamera.jfif" class="card-img-top" alt="..."></div>
+                <div class="card-body category-card-detail">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+          <div class="category-card">
+              <div class="card category-card-img" style="width: 16rem;">
+                <img src="./images/sonycamera.jfif" class="card-img-top" alt="..."></div>
+                <div class="card-body category-card-detail">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+          <div class="category-card">
+              <div class="card category-card-img" style="width: 16rem;">
+                <img src="./images/drone2.jfif" class="card-img-top" alt="..."></div>
+                <div class="card-body category-card-detail">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+          <div class="category-card">
+              <div class="card category-card-img" style="width: 16rem;">
+                <img src="./images/drone3.jfif" class="card-img-top" alt="..."></div>
+                <div class="card-body category-card-detail">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+         
+            </div>
+
+            <div onclick="scrolltop()" class="scrollup active"></div>
+            <footer>
+                <div class="mainfooter">
+                <div class="main-footer1">
+                  <div class="footer-section-about">
+                    <h2>ABOUT US</h2>
+                    <p>Our customers are our top priority and through our products
+                       we work hard towards building long-lasting and meaningful relations with them.</p>
+                         <ul class="section-about-icons">
+                          <li><i class="fa-brands fa-facebook-f"></i></li>
+                          <li><i class="fa-brands fa-twitter"></i></li>
+                          <li><i class="fa-brands fa-linkedin-in"></i></li>
+                          <li><i class="fa-brands fa-youtube"></i></li>
+                        </ul>
+                  </div>
+              
+                  <div class="footer-section-quicklinks">
+                    <h2>QUICK LINKS</h2>
+                  <ul>
+                    <li>HOME</li>
+                    <li>ABOUT</li>
+                    <li>CONTACT</li>
+                    <li>ACCOUNTS</li>
+                  </ul>
+                  </div>
+              
+                  
+                  <div class="footer-section-categories">
+                    <h2>CATEGORIES</h2>
+                  <ul>
+                      <li>MEN's FASHION</li>
+                      <li>ELECTRONIC DEVICES</li>
+                      <li>ELECTRONIC ACCESSORIES</li>
+                      <li>HOME APPLIANCES</li>
+                      <li>AUTOMOBILES & MOTOR BIKES</li>
+                  </ul>
+                  </div>
+              
+                  <div class="footer-section-contact">
+                    <h2>CONTACT INFO</h2>
+                    <ul class="footer-section-contactinfo">
+                      <li>
+                        <span><i class="fa-solid fa-location-dot"></i></span>
+                          <span>Bulding No.114 Gulshan Block A <br>Main Shahrah-e-Faisal,Karachi</span>
+                      </li>
+                      <li>
+                        <span><i class="fa-solid fa-envelope-open-text"></i></span>
+                        <span>abc@gmail.com </span>
+                      </li>
+                      <li>
+                        <span><i class="fa-solid fa-phone"></i></span>
+                        <span>021-3954912</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              </footer>
+              
+              <div class="footer-copyright">
+                <div class="footer-logo-img">
+                  <img src="./images/logo.png" width="270px" height="80px">
+                </div>
+                <p>Copyright &copy; 2022 FUTURISTIC E-COMMERCE. All Rights Reserved.</p>
+              </div>
+              
+</body>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</html>
